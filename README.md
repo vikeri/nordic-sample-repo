@@ -1,5 +1,5 @@
 # nordic-sample-repo
-Sample repo to show failing docker bild
+Sample repo to show how to test that your builds are passing.
 
 To run test:
 
