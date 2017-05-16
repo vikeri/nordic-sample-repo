@@ -1,0 +1,9 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/nordic-sample-repo
+    docker:
+      - image: vikeri/firmware-docker
+    steps:
+      - checkout
+      - run: ./build_blinky.sh
